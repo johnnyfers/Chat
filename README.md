@@ -2,8 +2,8 @@
 
 ### This project was built using:
 
--Typescript
--Node JS
--SQLite
--Socket.io
--Typeorm
+- Typescript
+- Node JS
+- SQLite
+- Socket.io
+- Typeorm
