@@ -66,7 +66,7 @@ io.on("connect", (socket) => {
 
         const socket_id = socket.id
 
-        const {user_id} = await connectionsServices.findByUserId(socket_id)
+        const {user_id} = await connectionsServices.findBySocketID(socket_id)
 
         const message = await messagesService.create({
             text,

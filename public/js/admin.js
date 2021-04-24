@@ -4,6 +4,7 @@ let connectionInSupport = [];
 
 socket.on('admin_list_all_users', connections => {
   connectionsUsers = connections;
+  
   document.getElementById('list_users').innerHTML = '';
 
   let template = document.getElementById('template').innerHTML;
